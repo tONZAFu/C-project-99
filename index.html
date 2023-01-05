@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <h1 id="Web" > COLLAGE WEB APP </h1>
+        <hr>
+        <h4> “As soon as the popup appears, please click Allow. After you've spoken a command” </h4>
+        <h3> Say "selfie" for taking your selfies and to make a Collage </h3>
+        <button id="Start_Button" onclick="save()" class="btn btn-primary" > Start </button>
+        <h4> Press the start Button </h4>
+        <label> Your Webcam: </label>
+        <br>
+        <br>
+        <div id="camera" ></div>
+        <label> Your selfie will Display Here: </label>
+        <br>
+        <br>
+        <div id="resultRow">
+            <div id="result1" class="column">
+                <img src="https://unsplash.com/photos/F3Dde_9thd8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQzOTUxMTU0&force=true"
+                height="400" width="500" >
+            </div>
+            <br>
+            <span></span>
+            <div id="result2" class="column">
+                <img src="https://unsplash.com/photos/dozkVhDyvhQ/download?force=true"
+                height="400" width="500">
+            </div>
+            <br>
+            <div id="result3" class="column">
+                <img src="https://unsplash.com/photos/N10auyEVst8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQzOTUxMjA2&force=true"
+                height="400" width="500">
+            </div>
+        </div>
+    </center>
+    <div class="copy_right_footer" > Made by -: Harshvardhan </div>
+</body>
+</html> 
